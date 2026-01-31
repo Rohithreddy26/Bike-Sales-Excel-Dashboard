@@ -1,111 +1,51 @@
-Bike Sales Excel Dashboard
+# Bike Sales Dashboard (Excel Project)
 
-This project is an Excel-based Bike Sales Dashboard created as part of my learning journey in data analysis. The dataset simulates real-world sales data and is used to practice data cleaning, analysis, and visualization techniques using Microsoft Excel.
+## 📌 Project Overview  
+This Excel project focuses on analyzing bike buyer data to understand customer patterns and purchasing behavior. The objective is to convert raw data into a clear and interactive dashboard that helps identify the most valuable customer segments.
 
-📊 Project Overview
+## 📂 Dataset Description  
+The dataset contains information related to customer demographics, income, education level, and commute distance.  
+* **Source:** Excel Data Analysis Tutorial (Alex The Analyst)  
+* **File Structure:**  
+    * `bike_buyers` – Raw dataset containing original records.  
+    * `working_sheet` – Cleaned and formatted data used for analysis.  
+    * `pivot_table` – Pivot tables created for summarizing data.  
+    * `Dashboard` – Final dashboard with interactive charts and slicers.  
 
-The goal of this project is to analyze bike sales data and present meaningful insights through an interactive dashboard. It helps in understanding customer behavior and sales patterns based on different factors such as income, age, region, and marital status.
+## 🛠️ Process & Methodology  
+### 1. Data Cleaning  
+Several steps were performed to improve data quality:  
+* **Duplicate Removal:** Deleted repeated records to avoid incorrect insights.  
+* **Value Standardization:** Updated short forms like M/F into full values (Male/Female, Married/Single).  
+* **Income Formatting:** Converted income values into proper currency format.  
 
-🧩 Dataset Description
+### 2. Feature Engineering  
+* **Age Groups:** A new column `Age Group` was created using conditional formulas:  
+    * **Adolescent:** (<31)  
+    * **Middle:** (31–65)  
+    * **Old:** (65+)  
+    * *Purpose:* Grouping ages makes trend analysis easier and more meaningful.  
 
-The dataset contains the following key columns:
+### 3. Analysis & Visualization  
+Pivot Tables and charts were used to build the dashboard:  
+* **Income vs Purchase:** Compared average income based on gender and purchase decision.  
+* **Age Group vs Purchase:** Identified which age range buys the most bikes.  
+* **Commute Distance Analysis:** Studied how travel distance affects bike purchases.  
 
-ID
+## 📊 Key Insights  
+* **Middle-Aged Customers Lead:** The middle-aged segment shows the highest number of bike purchases.  
+* **Short Distance Buyers:** Customers with 0–1 mile commute distance show the highest purchase rate.  
+* **Income Difference:** Male customers have slightly higher average income compared to female customers.  
 
-Marital Status
+## 🧰 Tools Used  
+* **Microsoft Excel:**  
+    * Pivot Tables  
+    * Charts  
+    * Slicers  
+    * Data Cleaning  
+    * IF and Nested IF formulas  
+    * Dashboard Design  
 
-Gender
+---
 
-Income
-
-Children
-
-Education
-
-Occupation
-
-Home Owner
-
-Cars
-
-Commute Distance
-
-Region
-
-Age
-
-Purchased Bike
-
-⚙️ Tools Used
-
-Microsoft Excel
-
-Pivot Tables
-
-Pivot Charts
-
-Slicers
-
-Excel Formulas (IF, COUNTIF, SUMIF, etc.)
-
-🔄 Data Cleaning & Preparation
-
-Removed duplicate records
-
-Standardized column values (e.g., Yes/No, M/F)
-
-Created age groups for better analysis
-
-Converted raw data into structured tables
-
-📈 Dashboard Features
-
-The dashboard includes:
-
-Average Income per Purchase
-
-Customer Age Group vs Bike Purchase
-
-Bike Purchase by Region
-
-Interactive slicers for:
-
-Marital Status
-
-Region
-
-Education
-
-These features allow users to filter and explore the data dynamically.
-
-🎯 Key Insights
-
-Middle-aged customers are more likely to purchase bikes
-
-Customers with higher income tend to buy bikes more frequently
-
-Region and marital status significantly affect purchasing decisions
-
-🏁 Conclusion
-
-This project helped me improve my Excel skills in:
-
-Data cleaning
-
-Data analysis
-
-Dashboard creation
-
-Data visualization
-
-It reflects my ability to work with structured datasets and convert raw data into meaningful business insights.
-
-📂 Files Included
-
-Bike_Sales_Dashboard.xlsx
-
-Raw_Data sheet
-
-Cleaned_Data sheet
-
-Dashboard sheet
+*Created by [Rohithreddy26]*
